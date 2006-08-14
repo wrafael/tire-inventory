@@ -1,0 +1,157 @@
+H1, H2, H3, H4, a{
+  font-family:"Trebuchet MS", Verdana;
+	margin: 0;
+}
+a:link{
+  color:#5367ac;
+	text-decoration:none;
+}
+a:visited, a:active{
+  color:#5367ac;
+	text-decoration:none;
+}
+a:hover{
+  color:#ff0000;
+  text-decoration:underline;
+}
+body {
+  margin: 0 auto;
+}
+#header{
+  background: #0099CC;
+	width: 100%;
+	height: 50px;
+	border-bottom:#003399;
+	border-bottom-width:25px;
+	border-bottom-style:solid;
+}
+.header-text{
+	padding-left: 10px;
+	color:#FFFFFF;
+  font-family:"Trebuchet MS", Verdana;
+}
+#content{
+  font-family:"Trebuchet MS", Verdana;
+	width:100%
+}
+#sidebar{
+  background:#E7EBFF;
+	height:100%;
+	width:200px;
+	float:left;
+}
+#block-head{
+  background:#5367AC;
+  font-family:"Trebuchet MS", Verdana;
+	font-weight:bold;
+	color:#FFFFFF;
+	width:175px;
+	margin-left: 10px;
+	border:#5367ac thin solid;
+	border-bottom-color:#FFFFFF;
+	text-align:center;
+}
+#block-body{
+  background:#ffffff;
+  font-family:"Trebuchet MS", Verdana;
+	font-size:small;
+	color:#5367ac;
+	width:175px;
+	margin-left: 10px;
+	border-bottom:#5367AC thin solid;
+	border-left:#5367AC thin solid;
+	border-right:#5367AC thin solid;
+}
+.block-body-text{
+  padding-left:10px;
+	padding-bottom: 5px;
+}
+#user-status{
+  background:#ffffff;
+	font-size:small;
+	color:#5367ac;
+	border: #5367AC dashed thin;
+	width:175px;
+	margin-left: 10px;
+}
+#details{
+  background:#FFFFFF;
+	width:68%;
+	height:100%;
+	float:left;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+#detail-head{
+  background: #5367AC;
+	width: 100%;
+	height: 20px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	color:#FFFFFF;
+  font-family:"Trebuchet MS", Verdana;
+	font-weight:bold;
+	border-bottom: thick #FFFFFF solid;
+}
+#detail-body{
+	width: 100%;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
+  font-family:"Trebuchet MS", Verdana;
+	border:#5367AC thin solid;
+}
+#footer{
+	width: 100%;	
+}
+
+#login {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border: #EBF2FB;
+}
+#login .title {
+	text-align: center;
+	font-size: x-small;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #3C7FB9;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	padding: 4px;
+}
+#login .details {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #EBF2FB;
+	color: #0956A6;
+	padding: 4px;
+	border: thin solid #3C7FB9;
+}
+div#commentForm{
+margin: 0px 20px 0px 20px;
+display: none;
+}
+#manage{
+border: thin solid #FFFFFF;
+font-family:"Trebuchet MS", Verdana;
+font-size:small;
+}
+#manage td{
+padding-left: 4px;
+padding-right: 4px;
+padding-bottom: 2px;
+padding-top: 2px;
+border: none;
+}
+#manage th{
+  background: #0099CC;
+	border: none;
+}
